@@ -1,0 +1,14 @@
+Initial setup:
+
+1. Unzip the content of CrudDemo.zip
+2. Open the CrudDemo.sln file
+3. In Visual Studio 2019 -> NuGet package manager console, run the following commands
+> add-migration CreateInitial
+> update-database
+
+This will create GlossaryDemo database on your local instance of Sql Server.
+
+4. In Visual Studio 2019, build and run the solution
+5. By default, Swagger will be launched. Here, the crud operations can be tested.
+Start with adding items, since no data has been seeded initially.
+6. Unit tests can be run in Solution Explorer by right clicking on CrudDemo.Tests project -> Run Tests 
